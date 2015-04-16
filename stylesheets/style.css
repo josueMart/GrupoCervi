@@ -1,3 +1,35 @@
 body{
 	font-size: 16px;
+	background-color: #eaeaea;
+	display:table;
 }
+
+#logo{
+width: 175px;
+height: 105px;
+
+}
+
+.encabezado{
+background-color: white;
+display: table-row;
+width: 1170px;
+
+
+}
+
+.h1{
+	font-size: 14px;
+	
+}
+
+.promos{
+	background-color: white;
+}
+
+.contacto{
+
+	background-color: #333333;
+	color: #D5D5D5;
+}
+
