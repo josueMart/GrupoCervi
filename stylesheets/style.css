@@ -32,4 +32,10 @@ width: 1170px;
 	background-color: #333333;
 	color: #D5D5D5;
 }
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
 
