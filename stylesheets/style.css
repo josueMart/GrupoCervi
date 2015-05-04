@@ -1,7 +1,18 @@
+html{
+  font-family: 'Lato', sans-serif;
+
+}
 body{
 	font-size: 16px;
 	background-color: #eaeaea;
-	font-family: 'Lato', sans-serif;
+	
   margin: 0;
   padding: 0;
 }
+.header-principal{
+
+  background-color: white;
+  color: #444444;
+  padding: 4em;
+}
+
