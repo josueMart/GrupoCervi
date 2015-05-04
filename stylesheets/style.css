@@ -2,6 +2,8 @@ body{
 	font-size: 16px;
 	background-color: #eaeaea;
 	font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 .banner{
 	background-color: rgb(126, 192, 224);
@@ -36,6 +38,7 @@ body{
 		display: inline-block;
 		/*border: solid red;*/
 	}
+
 		.enlaces--acerca{
 			width: 120px;
 			/*border: solid blue;*/
@@ -53,13 +56,11 @@ body{
   font-style: normal;
   font-variant: normal;
   font-weight: normal;
-  height: 525px;
   line-height: 20px;
-  width: 1268px;
    word-wrap: break-word;
    background-color: white;
-   margin-left: 317.5px;
-   margin-right: 317.5px;
+   margin-left: 10%;
+   margin-right: ;
    max-width: 1268px;
 
 }
