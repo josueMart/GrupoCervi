@@ -62,7 +62,7 @@ body{
 
     }
 
-    @media all and (orientattion: landscape) {
+    @media all and (orientation: landscape) {
       html{
         background-color: red;
       }
