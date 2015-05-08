@@ -62,12 +62,12 @@ body{
 
     }
 
-    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi){
+   /* @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi){
     html{
       font-size: 120%;
     }
 
-    }
+    }*/
 
     /*@media all and (orientation: landscape) {
       html{
