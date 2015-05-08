@@ -64,7 +64,7 @@ body{
 
     @media all and (orientation: landscape) {
       html{
-        background-color: red;
+        background-color: blue;
       }
 
     }
@@ -171,5 +171,4 @@ body{
                       margin-bottom: 7em;
                     }
                 
-@media all and (max-width: 480px) {}
   
