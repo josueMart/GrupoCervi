@@ -62,12 +62,12 @@ body{
 
     }
 
-    @media all and (orientation: landscape) {
+    /*@media all and (orientation: landscape) {
       html{
         background-color: blue;
       }
 
-    }
+    }*/
     .banner{
       text-align: center;
     }
