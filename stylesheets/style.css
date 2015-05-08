@@ -36,6 +36,7 @@ body{
 }
     .enlaces__ul__li{
       display: inline-block;
+      margin-bottom: 10px;
     }
     .enlaces__ul__li__item{
       text-decoration: none;
@@ -48,6 +49,24 @@ body{
     }
     .enlaces--acerca{
       display: inline-block;
+      margin-bottom: 10px;
+    }
+    @media all and (max-width: 480px) {
+    .enlaces__ul{
+      text-align: left;
+    }
+    .enlaces--acerca{
+      text-align: left;
+    }
+
+
+    }
+
+    @media all and (orientattion: landscape) {
+      html{
+        background-color: red;
+      }
+
     }
     .banner{
       text-align: center;
@@ -152,3 +171,5 @@ body{
                       margin-bottom: 7em;
                     }
                 
+@media all and (max-width: 480px) {}
+  
