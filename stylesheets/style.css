@@ -8,14 +8,16 @@ body{
 	
   margin: 0;
   padding: 0;
+
 }
 .header-principal{
 
-  background-color: white;
+  
   color: #444444;
   padding-right: 2.5em;
   padding-left: 2.5em;
   padding-bottom: 0.1em;
+   background-image: url(grupocervi/images/slide1.jpg);
 
 }
       
@@ -77,6 +79,7 @@ body{
     }*/
     .banner{
       text-align: center;
+
     }
 
     .footer{
