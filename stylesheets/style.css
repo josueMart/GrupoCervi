@@ -17,8 +17,16 @@ body{
   padding-right: 2.5em;
   padding-left: 2.5em;
   padding-bottom: 0.1em;
-   background-image: url(grupocervi/images/slide1.jpg);
+  background-image: url(https://github.com/josueMart/grupocervi/blob/master/images/slide1.jpg?raw=true);
 
+}
+.header-productos{
+color: #444444;
+  padding-right: 2.5em;
+  padding-left: 2.5em;
+  padding-bottom: 0.1em;
+  background-image: url(https://github.com/josueMart/grupocervi/blob/master/images/slide2.jpg?raw=true);
+  
 }
       
       .header__figure{
@@ -29,6 +37,11 @@ body{
   width: 15rem;
   height: 8rem;
   display: table-column;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  opacity: 45%
+
 }
 .enlaces__ul{
   list-style: none;
