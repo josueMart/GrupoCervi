@@ -10,6 +10,9 @@ body{
   padding: 0;
 
 }
+h2{
+  color: #333333;
+}
 .header-principal{
 
   
@@ -76,6 +79,58 @@ color: #444444;
 
 
     }
+    .content{
+      background-color: white;
+      display: inline-block;
+      text-align: center;
+
+    }
+
+    .promo1{
+      
+      display: inline-block;
+      text-align: center;
+      list-style: none;
+      width: 28%;
+      margin: 1.5em;
+
+      -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+ 
+    }
+
+    .promo1__img{
+      width: 261.83px;
+      height: 261.83px;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      opacity: 50%
+
+    }
+
+
+  .promo1__footer{
+    text-decoration: none;
+    text-align: center;
+
+  }
+
+
+
+
+
+
+    .promo2{
+      border: solid red;
+    }
+    .promo3{
+      border: solid red;
+    }
+
+
 
    /*@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     html{
@@ -90,10 +145,7 @@ color: #444444;
       }
 
     }*/
-    .banner{
-      text-align: center;
-
-    }
+    
 
     .footer{
       background-color: #333333;
