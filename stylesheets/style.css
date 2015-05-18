@@ -8,19 +8,19 @@ body{
 	
   margin: 0;
   padding: 0;
+  background-image: url(grupocervi/images/slide1.jpg);
 
 }
 h2{
   color: #333333;
 }
 .header-principal{
-
-  
   color: #444444;
   padding-right: 2.5em;
   padding-left: 2.5em;
   padding-bottom: 0.1em;
-  background-image: url(https://github.com/josueMart/grupocervi/blob/master/images/slide1.jpg?raw=true);
+  background-image: url(images/cerviparts1_1.jpg);
+  background-size: cover;
 
 }
 .header-productos{
@@ -28,7 +28,8 @@ color: #444444;
   padding-right: 2.5em;
   padding-left: 2.5em;
   padding-bottom: 0.1em;
-  background-image: url(https://github.com/josueMart/grupocervi/blob/master/images/slide2.jpg?raw=true);
+  background-image: url(images/slide2.jpg);
+  background-size: cover;
   
 }
       
