@@ -2,44 +2,87 @@
 <html lang="es">
 <head>
   <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Grupo Cervi S.A. DE C.V. </title>
   <link rel="stylesheet"  href="stylesheets/normalize.css">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="foundation/css/foundation.css" />
+  <script src="foundation/js/vendor/modernizr.js"></script>
   </head>
   <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>  
 <body>
-  <header class="header-principal">
+  <header class="row">
   <figure class="header__figure">
     <img id="logo" src="images/logo_cervi.png">
      </figure>
-  <nav class="enlaces">
-      <ul class="enlaces__ul">
-        <li class="enlaces__ul__li"><a class="enlaces__ul__li__item" href="index.html">Inicio</a></li>
-        <li class="enlaces--acerca"><a class="enlaces__ul__li__item" href="acercade.html">Acerca de Cervi</a></li>
-        <li class="enlaces__ul__li"><a class="enlaces__ul__li__item" href="catalog.html">Productos</a></li>
-        <li class="enlaces__ul__li"><a class="enlaces__ul__li__item" href="servicios.html">Servicios</a></li>
-        <li class="enlaces__ul__li"><a class="enlaces__ul__li__item" href="promociones.html">Promociones</a></li>
-        <li class="enlaces__ul__li"><a class="enlaces__ul__li__item" href="contacto.html">Contacto</a></li>
+  <nav class="top-bar" data-topbar role="navigation">
+  <ul class="title-area">
+    
+    <li class="name">
+      
+    </li>
+   
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+     <ul class="left">
+      <li class=""><a href="index.html">Inicio</a></li>
       </ul>
-  </nav>
- 
-</header>
+    <ul class="right">
+      <li class=""><a href="#">Promociones</a></li>
+      <li class="has-dropdown">
+        <a href="#">Catálogo</a>
+        <ul class="dropdown">
+          <li><a href="#">Equipo médico</a></li>
+          
+          <li class=""><a href="#">Partes y consumibles</a></li> 
+        </ul>
+      </li>
+      <li class=""><a href="#">Contacto</a></li>
+      <li class="has-dropdown">
+        <a href="#">Servicios</a>
+        <ul class="dropdown">
+          <li><a href="#">Renta de equipo médico</a></li>
+          
+          <li class=""><a href="#">Servicio a equipos de anestesia</a></li> 
+        </ul>
+      </li>
+    </ul>
+
+    <!-- Left Nav Section -->
+    <ul class="right">
+      <li><a href="acercade.html">Acerca de Grupo Cervi</a></li>
+    </ul>
+  </section>
+</nav>
 
   <section class="banner">
-<p>Somos un corporativo ubicado en la ciudad de Aguascalientes Ags. México, dedicado a la Importación, venta, renta y servicio de equipos médicos, así como a la venta de sus partes, consumibles y refacciones. Contamos con mas de 15 años de experiencia en el equipamiento de hospitales a nivel nacional.
-<br/>
-Misión
-Ofrecer los mejores equipos, productos y servicios que satisfagan las necesidades de nuestros clientes, contando con el personal capacitado a la vanguardia tecnológica y renovando la infraestructura a las condiciones de nuestra demanda, alcanzando permanentemente la competitividad en nuestro ramo comercial.
-<br/>
-Visión
-Seremos una empresa líder en nuestro ramo, con presencia a nivel nacional, Latinoamérica e internacional, desarrollando y comercializando nuestra propia tecnología médica para así proveer con los mejores equipos, productos y servicios a hospitales, clínicas, médicos y sector salud., Implementando permanentemente sistemas de calidad y de mejora continua en cada uno de nuestros procesos.</p>
+<div class="somos">
+    <h2>Quienes somos</h2>
+    <p>Somos un corporativo ubicado en la ciudad de Aguascalientes Ags. México, dedicado a la Importación, venta, renta y servicio de equipos médicos, así como a la venta de sus partes, consumibles y refacciones. Contamos con mas de 15 años de experiencia en el equipamiento de hospitales a nivel nacional.
+    </p>
+</div>
+    
+  <div class="mision">
+    <h2>Nuestra Misión</h2>
+    <p>
+       Ofrecer los mejores equipos, productos y servicios que satisfagan las necesidades de nuestros clientes, contando con el personal capacitado a la vanguardia tecnológica y renovando la infraestructura a las condiciones de nuestra demanda, alcanzando permanentemente la competitividad en nuestro ramo comercial.
+    </p>
+  </div>
+   
+   <div class="vision">
+    <h2>Nuestra visión</h2>
+     <p>
+    Seremos una empresa líder en nuestro ramo, con presencia a nivel nacional, Latinoamérica e internacional, desarrollando y comercializando nuestra propia tecnología médica para así proveer con los mejores equipos, productos y servicios a hospitales, clínicas, médicos y sector salud., Implementando permanentemente sistemas de calidad y de mejora continua en cada uno de nuestros procesos.
+     </p>
 
+   </div>
 </section> 
-<footer class="footer" >
+<footer class="row panel">
   <section class="footer__contacto"> 
-  <article class="footer__contacto__article">
+  <article class="small-12 medium-8 large-3 columns" data-equalizer-watch>
   <header class="footer__contacto__header">Oficinas de Grupo Cervi</header>
     <p class="footer__parrafo">Oficinas: <br/>
     Josefa Ortiz de Dominguez no. 733 <br/>
@@ -49,39 +92,28 @@ Seremos una empresa líder en nuestro ramo, con presencia a nivel nacional, Lati
     C.P 20270<br/>
     </p>
     </article>
-    <article class="footer__llama__article">
+    <article class="small-12 medium-8 large-3 columns" data-equalizer-watch>
     <header class="footer__llama__header">Llama sin costo</header>
     <p class="footer__parrafo">018007138173 sin costo<br/>
     (449) 9131220 con 6 lineas <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
     </p>
     </article>
-    <article class="footer__email__article">
+    <article class="small-12 medium-8 large-3 columns" data-equalizer-watch>
       <header class="footer__email__header">Correo electrónico</header>
       <nav class="footer__email__nav">
       <ul class="footer__email__ul" >
       <li class="footer__email__li"><a class="footer__email__item" href="">ventas@grupocevi.com</a> </li>
       <li class="footer__email__li"><a class="footer__email__item" href="">cervimedags@prodigy.net.mx</a></li>
       <li class="footer__email__li"><a class="footer__email__item" href="">contactogc@grupocervi.com</a></li>
-        <br/>
-        <br/>
-        <br/>
       </ul>
       </nav>
     </article>
-    <article class="footer__redes__article">
+    <article class="small-12 medium-8 large-3 columns" data-equalizer-watch>
       <header class="footer__redes__header">En redes sociales</header>
       <nav class="enlaces">
         <ul class="footer__redes__ul">
           <li class="footer__redes__ul"><a class="footer__redes__item" href="https://twitter.com/GpoCervi_Online">Twitter</a></li>
           <li class="footer__redes__ul"><a class="footer__redes__item" href="https://www.facebook.com/grupocervi">Facebook</a></li>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
         </ul>
       </nav>
     </article>
